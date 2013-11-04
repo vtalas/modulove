@@ -1,0 +1,151 @@
+﻿<!DOCTYPE html>
+<html lang="cs" ng-app="modulove">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="robots" content="all,follow"/>
+	<meta name="keywords" content=""/>
+	<meta name="description" content=""/>
+	<meta name="google-site-verification" content=""/>
+	<meta name="fragment" content="!"/>
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<title>Modulove</title>
+	<!--DEBUG-->
+	<link rel="stylesheet" href="Css/fluid_grid.css"/>
+	<link rel="stylesheet" href="Css/main.css"/>
+	<link rel="stylesheet" href="Css/jquery.mCustomScrollbar.css"/>
+	<!--DEBUG-->
+
+	<link rel="stylesheet" href="Css/font-awesome/css/font-awesome.css">
+	<!--RELEASE-->
+	<!--<link rel="stylesheet" href="Css/css.min.css"/>-->
+	<!--RELEASE-->
+
+	<script type="text/javascript" src="Scripts/libs/jquery.min.js"></script>
+	<script type="text/javascript" src="Scripts/libs/angular.min.js"></script>
+	<script type="text/javascript" src="Scripts/libs/modernizr.js"></script>
+	<script type="text/javascript" src="Scripts/libs/jquery.mCustomScrollbar.concat.min.js"></script>
+	<script type="text/javascript" src="Scripts/module.modulove.js"></script>
+
+	<!--DEBUG-->
+
+	<!--RELEASE-->
+	<!--<script type="text/javascript" src="Scripts/libs.min.js"></script>-->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans&subset=latin,latin-ext' rel='stylesheet'  type='text/css'>
+</head>
+<body ng-controller="slideShow">
+
+<div ng-show="!showContent" style="position: absolute;left:50%;top:40%;"><img src="Content/loader.GIF"></div>
+
+<div class="container_12" ng-show="showContent">
+
+	<div ng-show="isVideo" class="main-background ">
+		<div class="video-overlay">&nbsp;</div>
+		<video ngc-fullscreen-video class="video" id="video_background" preload="auto" autoplay="true" loop="loop"
+			   muted="muted" volume="0" style="width: 100%">
+			<source src="videos/splash.webm" type="video/webm">
+			<source src="Content/video/Modulove_timelapse_v2_1_byt_ipad.mp4" type="video/mp4">
+		</video>
+
+	</div>
+
+	<div ng-hide="isVideo" class="main-background" >
+		<div class="navigation">
+			<div class="left" ng-click="prev()">
+				<a href="#" class="prev" ng-click="prev()"> <i class="fa fa-angle-left fa-lg"></i> </a>
+			</div>
+			<div class="right" ng-click="next()">
+				<a href="#" class="next" ng-click="next()"> <i class="fa fa-angle-right fa-lg"></i></a>
+			</div>
+		</div>
+		<img ngc-fullscreen-image ng-src="{{image}}"/>
+	</div>
+
+	<div ngc-float class="dragable float-content">
+		<div class="grid_5 logo">
+			<div class="logo-wrap">
+				<img class="logo-image" src="Content/logo.png" alt="modulové">
+			</div>
+		</div>
+		<div class="grid_5 content-box">
+			<div class="background">&nbsp;<!--<img ng-src="{{image}}" style="-webkit-filter: blur(5px);top:-68px;position: absolute;left: -801px;width:1920px"/>--></div>
+			<div class="content-wrapper">
+				<div class="content text-content">
+					<p>
+						PŘEKLIŽKA nabízí princip (známý již starověku) jak z přírodního materiálu vytvořit
+						produkt zajímavých
+						mechanických vlastností. V MODULOVÉ je použita v kombinaci jak s průmyslovými "moderními"
+						materiály
+						(hliníkové profily, HPL laminát, rouno, deskové materiály na bázi recyklovaných plastů) tak s
+						přírodními
+						materiály (povrchová úprava vosky a oleji, lněné tkaniny).
+					</p>
+
+					<p> MODULOVÉ je modulární nábytkový systém nabízející různé velikosti a typy úložných prostor:
+						Skládá ze
+						tří
+						modulů vycházejících z rozměru 360mm (Boxík 360x360, Obdélný 360x720 a Box 720x720), které mohou
+						fungovat
+						jako volné police, nebo být opatřeny dvířky a kováním (otvírka, výsuv, výklop, vkládací box).
+						Modul
+						je
+						sestaven z překližkových desek spojovaných přes vložený Al L profil, což vytváří jednak poměrně
+						tuhý
+						spoj a
+						také charakteristický pohledový detail hotového modulu. Sestavy mohou být orientovány jedním
+						směrem
+						(umístění klasicky u zdi) nebo mohou být umístěny volně v prostoru a předělovat ho. Systém
+						umožňuje
+						vytvořit
+						i sedací kusy.
+					</p>
+
+					<p> MODULOVÉ jsou výsledkem práce Petra Bielčíka z Exalt a.s., firmy zabývájící se obchodem s
+						dřevomateriálem a
+						souvisejícími produkty, architektů Pavla Martinky a Ondřeje Spusty (aka <a
+								href="http://www.masparti.com" target="_blank">masparti.com</a> ) a těsné
+						spolupráce
+						s
+						truhlářem Aloisem Hřebíčkem.
+					</p>
+
+					<p>aaa</p>
+					<p>aaa</p>
+					<p>aaa</p>
+					<p>aaa</p>
+					<p>aaa</p>
+					<p>aaa</p>
+					<p>aaa</p>
+	<!--<iframe width="100%" height="315" src="//www.youtube.com/embed/SI1kCtueA4c" frameborder="0"-->
+							<!--allowfullscreen></iframe>-->
+				</div>
+				<div class="info-content">
+					<div class="grid_11">
+						<h2>... in love with modulove?</h2>
+						<h3>chci@modulove.cz</h3>
+					</div>
+					<div class="grid_1" style="text-align: right; font-size: 25px">
+						<a href="#" class="fa fa-angle-double-up" ng-click="toggleContent($element)"> </a>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+		</div>
+		<div class="grid_2"></div>
+		<div class="clear">&nbsp;</div>
+	</div>
+	<div class="clear">&nbsp;</div>
+</div>
+
+<script>
+
+	(function ($) {
+
+
+	})(jQuery);
+
+</script>
+</body>
+</html>
+

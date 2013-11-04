@@ -1,0 +1,5 @@
+NameError: variable @fa-css-prefix is undefined in C:\wamp\www\modulove\Css\font-awesome\less\icons.less:4:1
+3 
+4 .@{fa-css-prefix}-glass:before { content: @fa-var-glass; }
+5 .@{fa-css-prefix}-music:before { content: @fa-var-music; }
+

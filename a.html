@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html lang="cs" ng-app="modulove">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="robots" content="all,follow"/>
+	<meta name="keywords" content=""/>
+	<meta name="description" content=""/>
+	<meta name="google-site-verification" content=""/>
+	<meta name="fragment" content="!"/>
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<title>Modulove</title>
+	<!--DEBUG-->
+	<link rel="stylesheet" href="Css/fluid_grid.css"/>
+	<link rel="stylesheet" href="Css/main.css"/>
+	<link rel="stylesheet" href="Css/jquery.mCustomScrollbar.css"/>
+	<!--DEBUG-->
+
+	<link  rel="stylesheet" href="Css/font-awesome/css/font-awesome.css" >
+	<!--RELEASE-->
+	<!--<link rel="stylesheet" href="Css/css.min.css"/>-->
+	<!--RELEASE-->
+
+	<script type="text/javascript" src="Scripts/libs/jquery.min.js"></script>
+	<script type="text/javascript" src="Scripts/libs/angular.min.js"></script>
+	<script type="text/javascript" src="Scripts/libs/modernizr.js"></script>
+	<script type="text/javascript" src="Scripts/libs/jquery.mCustomScrollbar.concat.min.js"></script>
+	<script type="text/javascript" src="Scripts/module.modulove.js"></script>
+
+	<!--DEBUG-->
+
+	<!--RELEASE-->
+	<!--<script type="text/javascript" src="Scripts/libs.min.js"></script>-->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans&subset=latin,latin-ext' rel='stylesheet'
+		  type='text/css'>
+</head>
+
+<style>
+.video {
+	width:100%;
+}
+</style>
+<body ng-controller="slideShow">
+	<div class="main-background" >
+
+<video class="video" id="video_background" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0"> 
+
+<source src="videos/splash.webm" type="video/webm"> <source src="Content/video/Modulove_timelapse_v2_1_byt_ipad.mp4" type="video/mp4"> Video not supported </video>
+</div>
+<script>
+
+	(function ($) {
+		if (Modernizr["video"]) {
+			console.log("kjbasdjksd")
+		}
+		else {
+			console.log("nio");
+		}
+})(jQuery);
+
+</script>
+</body>
+</html>
+
