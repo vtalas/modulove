@@ -1,0 +1,5 @@
+NameError: variable @fa-css-prefix is undefined in C:\wamp\www\modulove\Css\font-awesome\less\spinning.less:4:1
+3 
+4 .@{fa-css-prefix}-spin {
+5   -webkit-animation: spin 2s infinite linear;
+

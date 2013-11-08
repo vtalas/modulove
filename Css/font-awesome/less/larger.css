@@ -1,0 +1,5 @@
+NameError: variable @fa-css-prefix is undefined in C:\wamp\www\modulove\Css\font-awesome\less\larger.less:5:1
+4 /* makes the font 33% larger relative to the icon container */
+5 .@{fa-css-prefix}-lg {
+6   font-size: (4em / 3);
+

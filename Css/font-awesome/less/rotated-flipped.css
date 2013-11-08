@@ -1,0 +1,5 @@
+NameError: variable @fa-css-prefix is undefined in C:\wamp\www\modulove\Css\font-awesome\less\rotated-flipped.less:4:1
+3 
+4 .@{fa-css-prefix}-rotate-90  { .fa-icon-rotate(90deg, 1);  }
+5 .@{fa-css-prefix}-rotate-180 { .fa-icon-rotate(180deg, 2); }
+

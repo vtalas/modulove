@@ -1,0 +1,5 @@
+NameError: variable @fa-css-prefix is undefined in C:\wamp\www\modulove\Css\font-awesome\less\fixed-width.less:3:1
+2 // -------------------------
+3 .@{fa-css-prefix}-fw {
+4   width: (18em / 14);
+
