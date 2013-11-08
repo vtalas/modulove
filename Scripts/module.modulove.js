@@ -81,14 +81,6 @@ module.controller("slideShow", function ($scope) {
 		}
 		$scope.image = imageUrl(images[position]);
 	};
-	$scope.toggleContent = function () {
-		if ($scope.contentVisible) {
-			angular.element(".content.text-content").hide();
-		} else {
-			angular.element(".content.text-content").show();
-		}
-		$scope.contentVisible = !$scope.contentVisible;
-	}
 
 //	$scope.$on("show-content", function () {
 //		$scope.showContent = true;
