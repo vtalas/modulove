@@ -4,13 +4,28 @@
     <list default="true" id="d373d18a-f600-47d9-8349-4ecf09a4a2e9" name="Default" comment="" />
     <ignored path="modulove.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/module.modulove.js" changelist="d373d18a-f600-47d9-8349-4ecf09a4a2e9" time="1383601883246" ignored="false" />
-    <file path="/index.html" changelist="d373d18a-f600-47d9-8349-4ecf09a4a2e9" time="1383601649288" ignored="false" />
-    <file path="/main.less" changelist="d373d18a-f600-47d9-8349-4ecf09a4a2e9" time="1383945894382" ignored="false" />
-    <file path="/a.dummy" changelist="d373d18a-f600-47d9-8349-4ecf09a4a2e9" time="1383600199213" ignored="false" />
+    <file path="/module.modulove.js" changelist="d373d18a-f600-47d9-8349-4ecf09a4a2e9" time="1383950807217" ignored="false" />
+    <file path="/index.html" changelist="d373d18a-f600-47d9-8349-4ecf09a4a2e9" time="1383954527957" ignored="false" />
+    <file path="/main.less" changelist="d373d18a-f600-47d9-8349-4ecf09a4a2e9" time="1383955098223" ignored="false" />
+    <file path="/a.dummy" changelist="d373d18a-f600-47d9-8349-4ecf09a4a2e9" time="1383952351592" ignored="false" />
     <file path="/a.less" changelist="d373d18a-f600-47d9-8349-4ecf09a4a2e9" time="1383945942779" ignored="false" />
     <file path="/a.css" changelist="d373d18a-f600-47d9-8349-4ecf09a4a2e9" time="1383945970222" ignored="false" />
     <file path="/main.css" changelist="d373d18a-f600-47d9-8349-4ecf09a4a2e9" time="1383945979078" ignored="false" />
+    <file path="/mincss.xml" changelist="d373d18a-f600-47d9-8349-4ecf09a4a2e9" time="1383950116564" ignored="false" />
+    <file path="/minjs.xml" changelist="d373d18a-f600-47d9-8349-4ecf09a4a2e9" time="1383950240430" ignored="false" />
+    <file path="/Dummy.txt" changelist="d373d18a-f600-47d9-8349-4ecf09a4a2e9" time="1383952155545" ignored="false" />
+    <file path="$PROJECT_DIR$/../ClientPhp/index.html" changelist="d373d18a-f600-47d9-8349-4ecf09a4a2e9" time="1383952311076" ignored="false" />
+    <file path="$PROJECT_DIR$/../ClientPhp/Css/main.less" changelist="d373d18a-f600-47d9-8349-4ecf09a4a2e9" time="1383952311076" ignored="false" />
+    <file path="$PROJECT_DIR$/../ClientPhp/Scripts/class.apiWrapper.js" changelist="d373d18a-f600-47d9-8349-4ecf09a4a2e9" time="1383952155545" ignored="false" />
+    <file path="$PROJECT_DIR$/../ClientPhp/Templates/template.p.html" changelist="d373d18a-f600-47d9-8349-4ecf09a4a2e9" time="1383952155545" ignored="false" />
+    <file path="$PROJECT_DIR$/../ClientPhp/Scripts/module.defaultClient.js" changelist="d373d18a-f600-47d9-8349-4ecf09a4a2e9" time="1383952311076" ignored="false" />
+    <file path="$PROJECT_DIR$/../ClientPhp/Templates/template.gridelements.html" changelist="d373d18a-f600-47d9-8349-4ecf09a4a2e9" time="1383952311076" ignored="false" />
+    <file path="$PROJECT_DIR$/../ClientPhp/Templates/template.page.html" changelist="d373d18a-f600-47d9-8349-4ecf09a4a2e9" time="1383952155545" ignored="false" />
+    <file path="$PROJECT_DIR$/../ClientPhp/Scripts/controller.page.js" changelist="d373d18a-f600-47d9-8349-4ecf09a4a2e9" time="1383952311076" ignored="false" />
+    <file path="$PROJECT_DIR$/../ClientPhp/Css/main.css" changelist="d373d18a-f600-47d9-8349-4ecf09a4a2e9" time="1383952380407" ignored="false" />
+    <file path="$PROJECT_DIR$/../ClientPhp/Css/masparti-responsive.less" changelist="d373d18a-f600-47d9-8349-4ecf09a4a2e9" time="1383952311076" ignored="false" />
+    <file path="/ksdf.less" changelist="d373d18a-f600-47d9-8349-4ecf09a4a2e9" time="1383952554073" ignored="false" />
+    <file path="/fluid_grid_responsive.less" changelist="d373d18a-f600-47d9-8349-4ecf09a4a2e9" time="1383955067287" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,37 +48,48 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="14" selection-start="2440" selection-end="2440" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="20" column="78" selection-start="872" selection-end="872" vertical-scroll-proportion="-4.392857">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="tag#div#2;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.less" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main.less" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Css/main.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="12" selection-start="188" selection-end="188" vertical-scroll-proportion="0.0">
+            <state line="24" column="1" selection-start="318" selection-end="318" vertical-scroll-proportion="0.47107437">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Css/main.css">
+      <file leaf-file-name="fluid_grid_responsive.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Css/fluid_grid_responsive.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="0" selection-start="243" selection-end="243" vertical-scroll-proportion="0.4514463">
+            <state line="57" column="0" selection-start="1121" selection-end="1121" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="module.modulove.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Scripts/module.modulove.js">
+      <file leaf-file-name="fluid_grid_responsive.less" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Css/fluid_grid_responsive.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="81" column="0" selection-start="1882" selection-end="1882" vertical-scroll-proportion="0.0">
-              <folding>
-                <marker date="1383944397602" expanded="true" signature="1811:1828" placeholder="{...}" />
-              </folding>
+            <state line="30" column="0" selection-start="804" selection-end="804" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fluid_grid.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Css/fluid_grid.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="56" column="1" selection-start="1096" selection-end="1096" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -78,10 +104,16 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/_tools/mincss.xml" />
+        <option value="$PROJECT_DIR$/_tools/minjs.xml" />
         <option value="$PROJECT_DIR$/Scripts/module.modulove.js" />
-        <option value="$PROJECT_DIR$/Css/main.less" />
         <option value="$PROJECT_DIR$/Css/main.css" />
+        <option value="$PROJECT_DIR$/Css/ksdf.less" />
+        <option value="$PROJECT_DIR$/Css/flud_grid_responsive.less" />
+        <option value="$PROJECT_DIR$/Css/fluid_grid.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/Css/fluid_grid_responsive.less" />
+        <option value="$PROJECT_DIR$/Css/main.less" />
       </list>
     </option>
   </component>
@@ -155,14 +187,28 @@
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="options.lastSelected" value="preferences.sourceCode.CSS" />
-    <property name="FullScreen" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ClientPhp" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
     <property name="GoToClass.includeJavaFiles" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="FullScreen" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -181,7 +227,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -259,124 +305,116 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Scripts/module.modulove.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="46" selection-start="1018" selection-end="1018" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1383944397602" expanded="true" signature="1811:1828" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Css/main.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="13" selection-start="775" selection-end="775" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="tag#div#2;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Scripts/module.modulove.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="0" selection-start="1297" selection-end="1297" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1383944397602" expanded="true" signature="1811:1828" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/module.modulove.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="0" selection-start="1318" selection-end="1318" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1383944397602" expanded="true" signature="1811:1828" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/module.modulove.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="155" column="35" selection-start="3716" selection-end="3716" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1383944397602" expanded="true" signature="1811:1828" placeholder="{...}" />
-          </folding>
-        </state>
+        <state line="155" column="35" selection-start="3716" selection-end="3716" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="128" column="0" selection-start="4501" selection-end="4501" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="tag#div#2;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="46" column="17" selection-start="1891" selection-end="1891" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="tag#div#2;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Scripts/module.modulove.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="119" column="64" selection-start="2856" selection-end="2856" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1383944397602" expanded="true" signature="1811:1828" placeholder="{...}" />
-          </folding>
+        <state line="119" column="64" selection-start="2856" selection-end="2856" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_tools/minifyCssJs.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_tools/mincss.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="7" selection-end="7" vertical-scroll-proportion="0.0196281" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_tools/minjs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="4" selection-start="326" selection-end="326" vertical-scroll-proportion="0.19628099" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scripts/module.modulove.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="0" selection-start="1650" selection-end="1650" vertical-scroll-proportion="0.0196281" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_production/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="118" column="49" selection-start="1982" selection-end="1982" vertical-scroll-proportion="0.7644628">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/module.defaultClient.js">
+    <entry file="file://$PROJECT_DIR$/Css/fluid_grid.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="15" selection-start="1096" selection-end="1096" vertical-scroll-proportion="0.41528925" />
+        <state line="56" column="1" selection-start="1096" selection-end="1096" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="14" selection-start="2440" selection-end="2440" vertical-scroll-proportion="0.0">
+        <state line="20" column="78" selection-start="872" selection-end="872" vertical-scroll-proportion="-4.392857">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="tag#div#2;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Css/fluid_grid_responsive.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="0" selection-start="1121" selection-end="1121" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/module.modulove.js">
+    <entry file="file://$PROJECT_DIR$/Css/fluid_grid_responsive.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="0" selection-start="1882" selection-end="1882" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1383944397602" expanded="true" signature="1811:1828" placeholder="{...}" />
-          </folding>
+        <state line="30" column="0" selection-start="804" selection-end="804" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Css/main.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="12" selection-start="188" selection-end="188" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="243" selection-end="243" vertical-scroll-proportion="0.4514463">
+        <state line="24" column="1" selection-start="318" selection-end="318" vertical-scroll-proportion="0.47107437">
           <folding />
         </state>
       </provider>

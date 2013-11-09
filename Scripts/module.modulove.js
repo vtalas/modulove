@@ -21,7 +21,7 @@ var images = [
 
 
 var module = angular.module("modulove", []);
-module.controller("slideShow", function ($scope) {
+module.controller("slideShow",  [ "$scope", function ($scope) {
 	var imagesCount = images.length,
 		position = 1,
 		imageUrl;
@@ -53,16 +53,8 @@ module.controller("slideShow", function ($scope) {
 	};
 
 	$scope.showContent = false;
-	$scope.isVideo = Modernizr["video"];
-
-	if ($scope.isVideo) {
-		$scope.$on("video-loaded", function () {
-			showContent();
-		})
-	} else {
-		for (var i = 0; i < images.length; i++) {
-			preLoadImage(images[i], i);
-		}
+	for (var i = 0; i < images.length; i++) {
+		preLoadImage(images[i], i);
 	}
 
 	$scope.image = imageUrl(images[position]);
@@ -85,9 +77,10 @@ module.controller("slideShow", function ($scope) {
 //	$scope.$on("show-content", function () {
 //		$scope.showContent = true;
 //	})
-});
+}]);
 
-module.directive('ngcFloat', function ($window) {
+module.directive('ngcFloat', ["$window", function ($window) {
+
 	return {
 		link: function (scope, element) {
 			var window = angular.element($window),
@@ -108,7 +101,7 @@ module.directive('ngcFloat', function ($window) {
 			}
 		}
 	};
-});
+}]);
 var updateImageElement = function (element, containerHeight) {
 	var elementHeight = element.height();
 
@@ -124,7 +117,7 @@ var updateImageElement = function (element, containerHeight) {
 	}
 };
 
-module.directive('ngcFullscreenImage', function ($window) {
+module.directive('ngcFullscreenImage', ["$window", function ($window) {
 	var updateImage = function (url, element, containerHeight) {
 		var image = new Image();
 		image.src = url;
@@ -146,9 +139,9 @@ module.directive('ngcFullscreenImage', function ($window) {
 			});
 		}
 	};
-});
+}]);
 
-module.directive('ngcFullscreenVideo', function ($window) {
+module.directive('ngcFullscreenVideo', ["$window", function ($window) {
 	return {
 		link: function (scope, element, attrs) {
 			var window = angular.element($window),
@@ -167,5 +160,6 @@ module.directive('ngcFullscreenVideo', function ($window) {
 				element.css("height", "100%");
 			}
 		}
-}});
+	}
+}]);
 

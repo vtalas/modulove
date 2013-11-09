@@ -1,165 +1,143 @@
 body {
-	font-family: 'Roboto', sans-serif;
-	margin: 0;
-	overflow: hidden;
-	font-size: 0.8em;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  overflow: hidden;
+  font-size: 0.8em;
 }
-
 p {
-	text-align: justify;
+  text-align: justify;
 }
-
 p:first-child {
-	margin-top: 0;
-	padding-top: 0;
+  margin-top: 0;
+  padding-top: 0;
 }
-
 h1,
 h2,
 h3 {
-	margin: 0px;
-	padding: 0px;
-	font-weight: normal;
+  margin: 0px;
+  padding: 0px;
 }
-
 a {
-	text-decoration: none;
-	color: #000000;
+  text-decoration: none;
+  color: #000000;
 }
-
 a:active {
-	color: #fff;
+  color: #fff;
+  text-decoration: none;
 }
-
 .float-content {
-	position: absolute;
+  position: absolute;
 }
-
 .float-content .content-wrapper {
-	z-index: 1001;
-	position: relative;
+  z-index: 1001;
+  position: relative;
 }
-
 .logo {
-	text-align: right;
+  text-align: right;
 }
-
 .logo .logo-wrap {
-	padding-right: 20px;
+  padding-right: 20px;
 }
-
 .content {
-	max-height: 450px;
-	overflow: hidden;
-	padding: 20px;
+  max-height: 450px;
+  overflow: hidden;
+  padding: 20px ;
 }
-
 .info-content {
-	position: relative;
-	padding: 20px;
+  position: relative;
+  padding: 20px ;
 }
-
 .background {
-	height: 100%;
-	position: absolute;
-	width: 100%;
-	background-color: #fff;
-	overflow: hidden;
-	opacity: 0.6;
-	filter: "alpha(opacity=0.6)";
-	-ms-filter: "alpha(opacity=0.6))";
-	/* old ie */
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  background-color: #fff;
+  overflow: hidden;
+  opacity: 0.6;
+  filter: "alpha(opacity=0.6)";
+  -ms-filter: "alpha(opacity=0.6))";
+  /* old ie */
 
 }
-
 .background img {
-	width: 1920px;
+  width: 1920px;
 }
-
 .main-background {
-	height: 100%;
-	position: absolute;
-	width: 100%;
+  height: 100%;
+  position: absolute;
+  width: 100%;
 }
-
 .main-background .video-overlay {
-	background: url("../Content/overlay.png");
-	width: 100%;
-	height: 100%;
-	position: absolute;
-	z-index: 1;
+  background: url("../Content/overlay.png");
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
 }
-
 .main-background video {
-	position: relative;
-	z-index: 0;
+  position: relative;
+  z-index: 0;
 }
-
 .main-background img {
-	width: 100%;
+  width: 100%;
 }
-
 .main-background .navigation {
-	position: relative;
-	z-index: 1000;
-	position: absolute;
-	padding: 1%;
-	font-size: 500%;
-	width: 98%;
-	height: 100%;
+  position: relative;
+  z-index: 1000;
+  position: absolute;
+  padding: 1%;
+  font-size: 500%;
+  width: 98%;
+  height: 100%;
 }
-
 .main-background .navigation .left,
 .main-background .navigation .right {
-	width: 50%;
-	height: 100%;
-	float: left;
+  width: 50%;
+  height: 100%;
+  float: left;
 }
-
 .main-background .navigation .left:hover .prev {
-	opacity: 0.3;
-	filter: "alpha(opacity=0.3)";
-	-ms-filter: "alpha(opacity=0.3))";
-	/* old ie */
+  opacity: 0.3;
+  filter: "alpha(opacity=0.3)";
+  -ms-filter: "alpha(opacity=0.3))";
+  /* old ie */
 
 }
-
 .main-background .navigation .left .prev:hover {
-	opacity: 1;
-	filter: "alpha(opacity=1)";
-	-ms-filter: "alpha(opacity=1))";
-	/* old ie */
+  opacity: 1;
+  filter: "alpha(opacity=1)";
+  -ms-filter: "alpha(opacity=1))";
+  /* old ie */
 
 }
-
 .main-background .navigation .right:hover .next {
-	opacity: 0.3;
-	filter: "alpha(opacity=0.3)";
-	-ms-filter: "alpha(opacity=0.3))";
-	/* old ie */
+  opacity: 0.3;
+  filter: "alpha(opacity=0.3)";
+  -ms-filter: "alpha(opacity=0.3))";
+  /* old ie */
 
 }
-
 .main-background .navigation .right .next:hover {
-	opacity: 1;
-	filter: "alpha(opacity=1)";
-	-ms-filter: "alpha(opacity=1))";
-	/* old ie */
+  opacity: 1;
+  filter: "alpha(opacity=1)";
+  -ms-filter: "alpha(opacity=1))";
+  /* old ie */
 
 }
-
 .main-background .navigation .next,
 .main-background .navigation .prev {
-	opacity: 0.1;
-	filter: "alpha(opacity=0.1)";
-	-ms-filter: "alpha(opacity=0.1))";
-	/* old ie */
+  opacity: 0.1;
+  filter: "alpha(opacity=0.1)";
+  -ms-filter: "alpha(opacity=0.1))";
+  /* old ie */
 
-	text-decoration: none;
-	position: relative;
-	top: 44%;
+  text-decoration: none;
+  position: relative;
+  top: 44%;
 }
-
 .main-background .navigation .next {
-	float: right;
+  float: right;
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  
 }

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="cs" ng-app="modulove">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
@@ -15,24 +15,21 @@
 	<link rel="stylesheet" href="Css/fluid_grid.css"/>
 	<link rel="stylesheet" href="Css/main.css"/>
 	<link rel="stylesheet" href="Css/jquery.mCustomScrollbar.css"/>
-	<!--DEBUG-->
-
-	<link rel="stylesheet" href="Css/font-awesome/css/font-awesome.css">
-	<!--RELEASE-->
-	<!--<link rel="stylesheet" href="Css/css.min.css"/>-->
-	<!--RELEASE-->
+	<link rel="stylesheet" href="Css/fluid_grid_responsive.css"/>
 
 	<script type="text/javascript" src="Scripts/libs/jquery.min.js"></script>
 	<script type="text/javascript" src="Scripts/libs/angular.min.js"></script>
-	<script type="text/javascript" src="Scripts/libs/modernizr.js"></script>
 	<script type="text/javascript" src="Scripts/libs/jquery.mCustomScrollbar.concat.min.js"></script>
 	<script type="text/javascript" src="Scripts/module.modulove.js"></script>
-
 	<!--DEBUG-->
 
 	<!--RELEASE-->
+	<!--<link rel="stylesheet" href="Css/css.min.css"/>-->
 	<!--<script type="text/javascript" src="Scripts/libs.min.js"></script>-->
-<link href='http://fonts.googleapis.com/css?family=Roboto:300&subset=latin-ext' rel='stylesheet' type='text/css'>
+	<!--RELEASE-->
+
+	<link rel="stylesheet" href="Css/font-awesome/css/font-awesome.css">
+	<link href='http://fonts.googleapis.com/css?family=Roboto:300&subset=latin-ext' rel='stylesheet' type='text/css'>
 </head>
 <body ng-controller="slideShow">
 
@@ -40,17 +37,7 @@
 
 <div class="container_12" ng-show="showContent">
 
-	<div ng-show="isVideo" class="main-background ">
-		<div class="video-overlay">&nbsp;</div>
-		<video ngc-fullscreen-video class="video" id="video_background" preload="auto" autoplay="true" loop="loop"
-			   muted="muted" volume="0" style="width: 100%">
-			<source src="videos/splash.webm" type="video/webm">
-			<source src="Content/video/Modulove_timelapse_v2_1_byt_ipad.mp4" type="video/mp4">
-		</video>
-
-	</div>
-
-	<div ng-hide="isVideo" class="main-background" >
+	<div class="main-background" >
 		<div class="navigation">
 			<div class="left" ng-click="prev()">
 				<a href="#" class="prev" ng-click="prev()"> <i class="fa fa-angle-left fa-lg"></i> </a>
@@ -59,21 +46,21 @@
 				<a href="#" class="next" ng-click="next()"> <i class="fa fa-angle-right fa-lg"></i></a>
 			</div>
 		</div>
-		<img ngc-fullscreen-image ng-src="{{image}}"/>
+		<img ngc-fullscreen-image ng-src="{{image}}" />
 	</div>
 
 	<div ngc-float class="dragable float-content">
-		<div class="grid_5 logo">
+		<div class="grid_0 mobile_grid_5">.</div>
+		<div class="grid_5 mobile_grid_7 logo">
 			<div class="logo-wrap">
-				<img class="logo-image" src="Content/logo.png" alt="modulové">
+				<img class="logo-image" src="Content/logo.png" alt="modulové" style="max-width: 100%">
 			</div>
 		</div>
-		<div class="grid_5 content-box">
+
+		<div class="grid_5 mobile_grid_12 content-box">
 			<div class="background">&nbsp;<!--<img ng-src="{{image}}" style="-webkit-filter: blur(5px);top:-68px;position: absolute;left: -801px;width:1920px"/>--></div>
 			<div class="content-wrapper">
 				<div class="content text-content">
-					
-
 					<p> Modulové je modulární nábytkový systém nabízející různé velikosti a typy úložných prostor:
 						Skládá ze tří modulů: Malej 360x360, Velkej 720x720 a Obdélnej 360x720, které mohou
 						fungovat jako volné police, nebo být opatřeny dvířky a kováním (otvírka, výsuv, výklop, vkládací box).
@@ -81,43 +68,35 @@
 						tuhý spoj a také charakteristický pohledový detail hotového modulu. Sestavy mohou být orientovány jedním
 						směrem (umístění klasicky u zdi) nebo mohou být umístěny volně v prostoru a předělovat ho.
 					</p>
-					
+
 					<p>
 						Překližka nabízí princip (známý již starověku) jak z přírodního materiálu vytvořit
-						produkt zajímavých mechanických vlastností. V Modulové je použita v kombinaci jak s průmyslovými "moderními"
-						materiály (AL profily, HPL laminát, deskové materiály na bázi recyklovaných plastů) tak s
-						přírodními "tradičními" materiály (povrchová úprava vosky a oleji, lněné tkaniny).
+						produkt zajímavých mechanických vlastností. V Modulové je použita v kombinaci jak s průmyslovými -moderními-
+						materiály (AL profily, HPL laminát) tak s
+						přírodními -tradičními- materiály (povrchová úprava vosky a oleji, lněné tkaniny).
 					</p>
 
-					<p> Na Modulové pracují Petr Bielčík z Exalt a.s., firmy zabývájící se obchodem s
+					<p> Na Modulové pracují Petr Bielčík z Exalt a.s., firmy obchodující s
 						dřevomateriálem, architekti Pavel Martinka a Ondřej Spusta (aka <a
 								href="http://www.masparti.com" target="_blank">masparti.com</a> ) ve spolupráci s domašovským
 						truhlářem Aloisem Hřebíčkem.
 					</p>
-	<!--<iframe width="100%" height="315" src="//www.youtube.com/embed/SI1kCtueA4c" frameborder="0"-->
-							<!--allowfullscreen></iframe>-->
+					<iframe width="100%" height="315" src="//www.youtube.com/embed/SI1kCtueA4c" frameborder="0"	allowfullscreen></iframe>
 				</div>
 				<div class="info-content">
 					<h2>... in love with modulove?</h2>
+					<br><h2><a href="mailto:">yes</a>/ not yet, tell me more</h2>
 
 					<h3></h3>
 				</div>
 			</div>
 		</div>
-		<div class="grid_2"></div>
+		<div class="grid_2 mobile_grid_0"></div>
 		<div class="clear">&nbsp;</div>
 	</div>
 	<div class="clear">&nbsp;</div>
 </div>
 
-<script>
-
-	(function ($) {
-
-
-	})(jQuery);
-
-</script>
 </body>
 </html>
 

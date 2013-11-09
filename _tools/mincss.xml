@@ -1,0 +1,7 @@
+<root>
+	<output path="../_production/Css/css.min.css">
+		<input path="../Css/fluid_grid.css"/>
+		<input path="../Css/main.css"/>
+		<input path="../Css/jquery.mCustomScrollbar.css"/>
+	</output>
+</root>
